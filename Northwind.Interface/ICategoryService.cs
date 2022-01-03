@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.Interface
 {
-    public interface ICategoryService : IGenericServise<Category,DtoCategory>
+    public interface ICategoryService : IGenericService<Category,DtoCategory>
     {
     }
 }

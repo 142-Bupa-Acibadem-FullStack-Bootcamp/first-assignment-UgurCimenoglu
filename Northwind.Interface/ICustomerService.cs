@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.Interface
 {
-    public interface ICustomerService : IGenericServise<Customer, DtoCustomer>
+    public interface ICustomerService : IGenericService<Customer, DtoCustomer>
     {
         IQueryable CustomerReport();
     }
